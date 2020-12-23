@@ -1,0 +1,33 @@
+.custom-div {
+    background-color: blue;
+    color: #fff;
+    width: 100%;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+} 
+.custom-div .ui.header {
+    color: #fff;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.ui.segment .ui.form .input.custom-input {
+    box-shadow: 0 0 10px red;
+    color: red;
+    animation: blink 1s linear infinite;
+}
+.item {
+    text-transform: capitalize;
+}
+.custom-span-notes {
+    width: 50px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+}
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+}
