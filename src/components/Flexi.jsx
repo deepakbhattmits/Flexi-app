@@ -4,7 +4,7 @@ const Flexi = props => {
     const [ name, setName ]= useState('');
     const [ state, setState ]= useState('');
     const onFlexiChange = ( e ) => {
-        setName( e.target.value );
+        setName( e.target.value )
     }
     const renderFields = () => {
         return props.config && props.config.items && props.config.items.map( (el,i) => { 
